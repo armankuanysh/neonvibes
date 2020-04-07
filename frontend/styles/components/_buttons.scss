@@ -1,0 +1,19 @@
+.btn {
+	font-family: $font-primary-regular;
+	font-weight: normal;
+	font-style: normal;
+	outline: none !important;
+	transition: color $transition-primary;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	&:active {
+		box-shadow: none;
+	}
+
+	&:hover,
+	&:active {
+		transition: none;
+	}
+}
+

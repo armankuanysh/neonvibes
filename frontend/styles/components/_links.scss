@@ -1,0 +1,15 @@
+
+.link {
+  color: $color-red;
+  padding-top: 5px;
+  &:hover {
+      color: #000;
+      text-decoration: none;
+  }
+  &:focus,
+  &:active {
+      color: #636363;
+      text-decoration: none;
+  }
+}
+

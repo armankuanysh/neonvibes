@@ -1,0 +1,15 @@
+{% extends "layouts/default.njk" %}
+
+{% block content %}
+<main>
+  <section class="hero">
+    <div class="hero__inner">
+      <span id="score" class="hero__score">0</span>
+    </div>
+  </section>
+</main>
+{% endblock %}
+
+{% block script %}
+<script src="scripts/main.bundle.js"></script>
+{% endblock %}

@@ -1,0 +1,45 @@
+.pr-pages {
+	position: relative;
+	width: 100%;
+	.container {
+		max-width: 1024px;
+		width: 100%;
+		margin: 0 auto;
+	}
+	&__inner {
+		position: relative;
+		width: 100%;
+		h3 {
+			font-size: 22px;
+			color: #333;
+		}
+		ol {
+			position: relative;
+			width: 100%;
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			li {
+				position: relative;
+				box-sizing: border-box;
+				a {
+					display: inline-block;
+					box-sizing: border-box;
+					width: 100%;
+					color: #333;
+					font-weight: bold;
+					font-size: 18px;
+					padding: 15px 25px;
+					background-color: #e5e5e5;
+					transition: 0.3s ease-in;
+					border: 1px solid transparent;
+					&:hover {
+						background-color: #fff;
+						border: 1px solid #eb4c2f;
+						color: #eb4c2f;
+					}
+				}
+			}
+		}
+	}
+}
